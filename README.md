@@ -12,4 +12,5 @@ This repo contains my solutions to various challenges from [CSSBattle](https://c
 | 1 | [#5: Acid Rain](https://cssbattle.dev/play/5) | [View source](src/battle-1/5/index.html) |
 | 1 | [#6: Missing Slice](https://cssbattle.dev/play/6) | [View source](src/battle-1/6/index.html) |
 | 1 | [#7: Leafy Trail](https://cssbattle.dev/play/7) | [View source](src/battle-1/7/index.html) |
+| 1 | [#8: Forking Crazy](https://cssbattle.dev/play/8) | [View source](src/battle-1/8/index.html) |
 | 2 | [#16: Eye of the Tiger](https://cssbattle.dev/play/16) | [View source](src/battle-2/16/index.html) |

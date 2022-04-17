@@ -1,0 +1,61 @@
+<div class="fork">
+  <div class="prong"></div>
+  <div class="prong"></div>
+  <div class="prong"></div>
+  <div class="prong"></div>
+  <div class="prong"></div>
+  <div class="prong"></div>
+  <div class="prong"></div>
+</div>
+<style>
+  body {
+    background: #6592CF;
+    display: flex;
+    place-items: center;
+    place-content: center;
+  }
+
+  .fork {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    background: #060F55;
+    border-radius: 0 0 50% 50%;
+    transform: translateY(30px);
+    display: flex;
+  }
+
+  .fork:after {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 99px;
+    background: inherit;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .prong {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: #060F55;
+    transform: translateY(-60px);
+    border-radius: 50% 50% 0 0;
+  }
+
+  .prong:nth-child(2n) {
+    background: #6592CF;
+    transform: rotate(180deg) translateY(-30px);
+  }
+
+  .prong:after {
+    position: absolute;
+    content:"";
+    width: 20px;
+    background: inherit;
+    height: 50px;
+    top: 20px;
+  }
+</style>
